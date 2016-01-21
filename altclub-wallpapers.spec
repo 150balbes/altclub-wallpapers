@@ -14,10 +14,7 @@ Source0:	wallpapers.tar.bz2
 AltLinux Club Users Wallpapers
 
 %prep
-
 %build
-%make_build
-
 %install
 mkdir -p %buildroot%_datadir/wallpapers
 tar xjf %SOURCE0 -C %buildroot%_datadir/
