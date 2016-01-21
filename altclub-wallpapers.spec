@@ -20,7 +20,7 @@ AltLinux Club Users Wallpapers
 
 %install
 mkdir -p %buildroot%_datadir/wallpapers
-tar xjf %SOURCE4 -C %buildroot%_datadir/
+tar xjf %SOURCE0 -C %buildroot%_datadir/
 
 %files
 %_datadir/*
