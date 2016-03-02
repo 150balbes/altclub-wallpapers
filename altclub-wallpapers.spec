@@ -1,6 +1,6 @@
 Name:		altclub-wallpapers
 Version:	0.0.1
-Release:	alt2
+Release:	alt3
 Summary:	AltLinux Club Users Wallpapers
 
 License:	GPL
@@ -25,6 +25,9 @@ tar xjf %SOURCE0 -C %buildroot%_datadir/
 %_datadir/wallpapers/*
 
 %changelog
+* Tue Mar 02 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt3
+- dell dublikat
+
 * Tue Jan 29 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt2
 - edit 0001.jpg
 
